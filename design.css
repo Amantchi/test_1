@@ -2,11 +2,13 @@ body{
     padding: 0;
     margin: 0;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(255, 255, 255);
     color: white;
     
+    
 }
+
 
 h1{
     text-align: center;
@@ -14,16 +16,18 @@ h1{
     margin-left: 5%;
     background-color: black;
     padding: 10px 10px;
-    border-left: 1px solid black;
+    border-left: 1px solid black;   
     border-right: 1px solid black;
     border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black;     
 
 }
+
 
 span{
     color: aqua;
 }
+
 
 img{
     display: flex;
@@ -32,13 +36,17 @@ img{
     margin-top: 7%;
     left: 70px;
 }
+
+
 #bien
 {
     margin: 90px 0 50px 330px;
 }
+
+
 .show  {
     
-    margin:   0;
+    margin: 0;
     /* display: flex; */
     height: 50px;
     padding: 0;
@@ -52,25 +60,32 @@ img{
     list-style: none;
     text-align: center;
     margin: 0;
-    padding:  0 50px;
+    padding:  5px 50px;
     float: left;
     border-left: 1px solid rgba(0, 0, 255, 0.11);
-        border-right: 1px solid rgba(0, 0, 255, 0.11);
-        border-top: 1px solid rgba(0, 0, 255, 0.11);
-        border-bottom: 1px solid rgba(0, 0, 255, 0.11);
-        background-color:rgba(0, 0, 255, 0.11);
+    border-right: 1px solid rgba(0, 0, 255, 0.11);
+    border-top: 1px solid rgba(0, 0, 255, 0.11);
+    border-bottom: 1px solid rgba(0, 0, 255, 0.11);
+    background-color:rgba(0, 0, 255, 0.11);
+    font-size: 20px;
+    
+    
 }
+
+
 
 .show li a {
     display: block;
     padding: 18px 0;
   color: blue;
   text-decoration: none;
+ 
   
 
-
-
 }
+
+
+
 
 .show li ul{
     /* display: flex; */
@@ -81,15 +96,21 @@ img{
      display: none;
      color: black;
      /* padding: 0 60px; */
+     
+     
     
+}
+
 
 
 .show li:hover ul {
     display: block;
     
+    
   }
 
-    @media screen and (max-width:1060px) {
+
+  @media screen and (max-width:1060px) {
         img{
             display: none;
         }
@@ -108,6 +129,4 @@ img{
         
          
   }
-
-
 
