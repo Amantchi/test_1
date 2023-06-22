@@ -81,16 +81,33 @@ img{
      display: none;
      color: black;
      /* padding: 0 60px; */
-     
     
-}
-.show li ul li{
-    text-align: center;
-}
 
 
 .show li:hover ul {
     display: block;
     
   }
+
+    @media screen and (max-width:1060px) {
+        img{
+            display: none;
+        }
+
+         #bien {              
+            margin: 0 20%;
+            
+         }
+
+         .show li {
+            height: auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            flex-direction: column;
+
+         }
+        
+         
+  }
+
+
 
